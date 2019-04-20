@@ -1,0 +1,6 @@
+c:\Users\Dan\Source\Repos\Upsilon\UpsilonEngine\obj\Debug\UpsilonEngine.csprojAssemblyReference.cache
+c:\Users\Dan\Source\Repos\Upsilon\UpsilonEngine\obj\Debug\UpsilonEngine.csproj.CoreCompileInputs.cache
+c:\Users\Dan\Source\Repos\Upsilon\UpsilonEngine\bin\Debug\UpsilonEngine.dll
+c:\Users\Dan\Source\Repos\Upsilon\UpsilonEngine\bin\Debug\UpsilonEngine.pdb
+c:\Users\Dan\Source\Repos\Upsilon\UpsilonEngine\obj\Debug\UpsilonEngine.dll
+c:\Users\Dan\Source\Repos\Upsilon\UpsilonEngine\obj\Debug\UpsilonEngine.pdb

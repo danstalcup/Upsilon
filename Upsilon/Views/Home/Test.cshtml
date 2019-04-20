@@ -1,0 +1,36 @@
+﻿@model Upsilon.Models.ProfessionsViewModel
+
+@{
+    ViewData["Title"] = "View Test Data";
+}
+
+<h1>View Test Data</h1>
+
+<div>
+    <h2>Professions</h2>
+    <hr />
+    @foreach (var profession in Model.Professions)
+    {                    
+        <h3>@profession.Name</h3>                
+        <table class="table">                        
+                <tr>
+                    <th>Prerequisites</th>
+                    <td colspan="4">@foreach (var requirement in profession.Requirements)
+                                    {
+                                        <span>@requirement.ProfessionLevelId </span>
+                                    }
+                    </td>                                                        
+                </tr>                                   
+            @foreach (var level in profession.Levels)
+            {
+                <tr>
+                    <th>Level @level.LevelNumber</th>
+                    <td>@level.Name</td>
+                    <td>@level.Description</td>
+                    <td>@level.Ability</td>                                                
+                    <td>@level.ExperienceRequired EXP</td>                        
+                </tr>
+            }
+        </table>        
+    }  
+</div>
